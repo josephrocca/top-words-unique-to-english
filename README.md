@@ -1,7 +1,10 @@
-# top-words-unique-to-english
-Top 4000+ words that are (spelling-wise) unique to English
+# top words unique to english
+
+Top 4000+ most common words that are (spelling-wise) unique to English. Very rough - not to be relied on for important stuff.
 
 https://github.com/oprogramador/most-common-words-by-language
+
+To re-generate:
 
 ```js
 let text = await fetch("https://raw.githubusercontent.com/oprogramador/most-common-words-by-language/master/src/resources/english.txt").then(r => r.text());
