@@ -3,7 +3,7 @@ Top 4000+ words that are (spelling-wise) unique to English
 
 https://github.com/oprogramador/most-common-words-by-language
 
-```
+```js
 let text = await fetch("https://raw.githubusercontent.com/oprogramador/most-common-words-by-language/master/src/resources/english.txt").then(r => r.text());
 let englishWords = new Set(text.split("\n").map(w => w.trim().toLowerCase()));
 
